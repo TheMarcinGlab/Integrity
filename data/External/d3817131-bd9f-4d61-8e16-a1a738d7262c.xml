@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<person>
+  <personId>d3817131-bd9f-4d61-8e16-a1a738d7262c</personId>
+  <firstName>Ewa</firstName>
+  <lastName>Wiśniewski</lastName>
+  <mobile>+48655557770</mobile>
+  <email>ewa.wiśniewski3@example.com</email>
+  <pesel>95090797947</pesel>
+</person>

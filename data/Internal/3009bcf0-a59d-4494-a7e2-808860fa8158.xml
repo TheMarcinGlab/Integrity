@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<person>
+  <personId>3009bcf0-a59d-4494-a7e2-808860fa8158</personId>
+  <firstName>Paweł</firstName>
+  <lastName>Szymański</lastName>
+  <mobile>+48833635701</mobile>
+  <email>paweł.szymański6@example.com</email>
+  <pesel>98061400352</pesel>
+</person>

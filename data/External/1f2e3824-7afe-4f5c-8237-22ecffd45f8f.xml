@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<person>
+  <personId>1f2e3824-7afe-4f5c-8237-22ecffd45f8f</personId>
+  <firstName>Jan</firstName>
+  <lastName>Kowalski</lastName>
+  <mobile>600-700-800</mobile>
+  <email>jan.kowalski@example.com</email>
+  <pesel>44051401458</pesel>
+</person>
