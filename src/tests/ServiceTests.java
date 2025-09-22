@@ -1,6 +1,6 @@
 package tests;
 
-import main.Person;
+import main.dto.Person;
 import main.exception.PersonAlreadyExistsException;
 import main.exception.PersonNotFoundException;
 import main.enums.Type;
@@ -31,7 +31,7 @@ public class ServiceTests {
 
         String id1 = "P-1001";
         Person p1 = new Person(id1, Type.INTERNAL, "Anna", "Nowak",
-                "+48500500500", "anna.nowak@example.com", "02270803628");
+                "+48500500500", "anna.nowak@example.com", "72030663621");
         Validators.validateNew(p1);
         service.create(p1);
         assert service.find(id1, null, null, null, null, null, null).isPresent();
@@ -55,7 +55,7 @@ public class ServiceTests {
 
         String id2 = "P-2002";
         Person p2 = new Person(id2, Type.EXTERNAL, "Piotr", "Zieliński",
-                "+48700700700", "piotr.z@example.com", "99010112376");
+                "+48700700700", "piotr.z@example.com", "77011808617");
         Validators.validateNew(p2);
         service.create(p2);
 

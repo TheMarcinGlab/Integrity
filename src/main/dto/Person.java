@@ -1,4 +1,4 @@
-package main;
+package main.dto;
 
 import main.enums.Type;
 

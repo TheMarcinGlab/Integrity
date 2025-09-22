@@ -1,7 +1,7 @@
 package main.repository;
 
 
-import main.Person;
+import main.dto.Person;
 import main.enums.Type;
 
 import java.io.IOException;

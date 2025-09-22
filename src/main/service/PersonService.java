@@ -3,7 +3,7 @@ package main.service;
 
 import main.exception.PersonAlreadyExistsException;
 import main.exception.PersonNotFoundException;
-import main.Person;
+import main.dto.Person;
 import main.enums.Type;
 import main.repository.PersonRepository;
 import main.validation.Validators;

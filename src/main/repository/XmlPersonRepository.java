@@ -1,7 +1,7 @@
 package main.repository;
 
 
-import main.Person;
+import main.dto.Person;
 import main.enums.Type;
 import main.util.XmlUtils;
 import org.w3c.dom.Document;
@@ -95,7 +95,7 @@ public class XmlPersonRepository implements PersonRepository {
         var existing = locateById(person.personId());
         Path target = pathOf(person.type(), person.personId());
         if (existing.isPresent() && !existing.get().equals(target)) {
-            Files.deleteIfExists(existing.get()); // zmiana typu -> przeniesienie
+            Files.deleteIfExists(existing.get());
         }
         writePersonAtomically(person, target);
     }

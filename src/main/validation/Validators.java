@@ -1,7 +1,7 @@
 package main.validation;
 
 import main.exception.ValidationException;
-import main.Person;
+import main.dto.Person;
 
 import java.util.regex.Pattern;
 
