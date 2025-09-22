@@ -37,7 +37,7 @@ public class ValidatorsTests {
                 "Kowalski",
                 "+48123456789",
                 "jan.kowalski@example.com",
-                "72030663621" // poprawny PESEL (checksum OK)
+                "72030663621"
         );
     }
 
@@ -78,9 +78,7 @@ public class ValidatorsTests {
 
         Validators.validateUpdate(baseValidPerson().withEmail("jk@example.co.uk"));
     }
-
-    // ======= PESEL =======
-
+    
     private static void testPeselLengthAndDigits() {
         expectValidationError(baseValidPerson().withPesel("123"));
         expectValidationError(baseValidPerson().withPesel("abcdefghijk"));
